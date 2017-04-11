@@ -1,0 +1,16 @@
+build_linux/
+build_win/
+debug/
+release/
+Makefile.Debug
+Makefile.Release
+*.docx
+*.json
+*.autosave
+win_dist_files/
+Makefile
+AutoUpdate
+AutoUpdate.pro.user
+qrc_AutoUpdate.cpp
+*.qm
+ui_widget.h

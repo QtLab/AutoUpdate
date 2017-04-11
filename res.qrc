@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>Auto.qss</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>images/close.png</file>
+        <file>images/closeHover.png</file>
+        <file>images/closePressed.png</file>
+        <file>images/icon.png</file>
+        <file>images/windowShadow.png</file>
+        <file>images/download.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,57 @@
+QLineEdit { background: grey }
+QPushButton#closeButton{
+    border-image: url(:/images/images/close.png);
+}
+QPushButton#closeButton:hover{
+    border-image: url(:/images/images/closeHover.png);
+}
+
+QPushButton#closeButton:pressed{
+    border-image: url(:/images/images/closePressed.png);
+}
+
+QPushButton#updateButton {
+    color: white;
+    background-color: #00c249;
+    border-style: solid;
+    border-radius: 7;
+    padding: 1px;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 40px;
+    max-height: 40px;
+    outline:none;
+}
+
+QPushButton#updateButton:hover{
+    background-color: #079922;
+}
+
+QPushButton#updateButton:disabled{
+    background-color: grey;
+}
+
+QLabel#labelUpdate{
+    color:grey;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    min-height: 40px;
+    max-height: 40px;
+    font: bold;
+}
+
+QProgressBar::chunk {
+   background-color: #05B855;
+   width: 20px;
+}
+
+QProgressBar {
+   border: 1px solid black;
+   border-radius: 5px;
+   text-align: center;
+}
+
